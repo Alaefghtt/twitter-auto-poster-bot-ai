@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "Create an AI-inspired faceless character that exudes the mystique and discipline of a samurai. The figure should be dressed in a traditional flowing kimono with subtle, intricate patterns, emphasizing elegance and grace. Without a face, the focus shifts to the posture, aura, and quiet intensity of the figure. The scene should be minimalist, with a soft, ethereal background—perhaps a fading gradient of twilight or the serene glow of dawn. Incorporate elements like faint cherry blossoms or drifting mist to suggest a sense of timelessness and introspection. The overall atmosphere should balance mystery and calm, captivating viewers with the power of the unseen";
+    "Posture, aura, and quiet intensity of the figure. The scene should be minimalist, with a soft, ethereal background—perhaps a fading gradient of twilight or the serene glow of dawn.";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
